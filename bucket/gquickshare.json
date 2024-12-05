@@ -20,7 +20,7 @@
         }
     },
     "install": [
-        start-process -filepath './QuickShareSetup.exe' -args '/silent' -wait
+        "start-process -filepath './QuickShareSetup.exe' -args '/silent' -wait"
     ],
     "extract_dir": "core",
     "post_install": [
