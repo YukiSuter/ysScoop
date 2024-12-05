@@ -21,6 +21,7 @@
     },
     "install": [
         "start-process -filepath './QuickShareSetup.exe' -args '/silent' -wait",
+        "echo Executing second command",
         "7z x './updater.7z' -o'$dir' -y",
         "start-process -filepath '$dir\\bin\\updater.exe' -args '/silent' -wait"
     ],
