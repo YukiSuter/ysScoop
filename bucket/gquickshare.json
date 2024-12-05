@@ -19,15 +19,7 @@
             "hash": ""
         }
     },
-    "install": [
-        "start-process -filepath './QuickShareSetup.exe' -args '/silent' -wait",
-        "write-output 'First installer ran successfully.'",
-        "7z x './updater.7z' -o'$dir' -y",
-        "write-output '7z extraction completed.'",
-        "start-process -filepath '$dir\\bin\\updater.exe' -args '/silent' -wait",
-        "write-output 'Updater ran successfully.'"
-    ],
     "post_install": [
-        "echo install complete update!"
+        "start-process -filepath './QuickShareSetup.exe' -args '/silent' -wait",
     ]
 }
