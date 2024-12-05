@@ -19,6 +19,7 @@
             "hash": ""
         }
     },
+    "extract_dir": "core",
     "pre_install": "",
     "installer": {
         "script": ""
