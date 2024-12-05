@@ -25,6 +25,6 @@
         "start-process -filepath '$dir\\bin\\updater.exe' -args '/silent' -wait"
     ],
     "post_install": [
-        "echo install complete!"
+        "echo install complete (update)!"
     ]
 }
