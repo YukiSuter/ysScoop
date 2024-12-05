@@ -20,7 +20,9 @@
         }
     },
     "install": [
-        "start-process -filepath './QuickShareSetup.exe' -args '/silent' -wait"
+        "start-process -filepath './QuickShareSetup.exe' -args '/silent' -wait",
+        "7z x updater.7z",
+        "start-process -filepath './bin/updater.exe' -args '/silent' -wait"
     ],
     "post_install": [
         "echo install complete!"
