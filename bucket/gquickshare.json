@@ -25,8 +25,5 @@
 	],
     "post_install": [
         "echo install complete!"
-    ],
-    "installer": {
-        "script": ""
-    },
+    ]
 }
