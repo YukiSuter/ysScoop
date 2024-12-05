@@ -7,7 +7,7 @@
     "hash": "a4c711b5be8dc329e78ec16cd066746a0cdd924b07c12ab6fc6c5935fb9f9831",
     "installer": {
         "script": [
-            "Start-Process -FilePath \"$dir\\QuickShareSetup.exe\" -ArgumentList \"/silent\" -Wait"
+            "Start-Process -FilePath \"$dir\\QuickShareSetup.exe\" -Wait"
         ]
     }
 }
