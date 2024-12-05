@@ -20,9 +20,6 @@
         }
     },
     "extract_dir": "core",
-    "bin": [
-		"nearby_share_launcher.exe"
-	],
     "post_install": [
         "echo install complete!"
     ]
